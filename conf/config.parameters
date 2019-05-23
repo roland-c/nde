@@ -1,0 +1,20 @@
+registry.count = 3
+
+ckan1.registry = https://opendata.picturae.com/api/action/package_list
+ckan1.nameRegistry = Picturae Opendata Platform
+ckan1.prefixURL = https://opendata.picturae.com/api/action/package_show?id=
+ckan1.prefixURI = http://lod.kb.nl/datasets/
+ckan1.fileOut = /opt/data/nde/bronnen/datasets_picturea.nt
+
+
+ckan2.registry = https://opendata.oorlogsbronnen.nl/api/action/package_list
+ckan2.nameRegistry = Oorlogsbronnen Collectieportal
+ckan2.prefixURL = https://opendata.oorlogsbronnen.nl/api/action/package_show?id=
+ckan2.prefixURI = http://lod.kb.nl/datasets/
+ckan2.fileOut = /opt/data/nde/bronnen/datasets_oorlogsbronnen.nt
+
+ckan3.registry = http://mediasuitedata.clariah.nl/api/action/package_list
+ckan3.nameRegistry = Clariah Labs Dataset Registry
+ckan3.prefixURL = http://mediasuitedata.clariah.nl/api/action/package_show?id=
+ckan3.prefixURI = http://lod.kb.nl/datasets/
+ckan3.fileOut = /opt/data/nde/bronnen/datasets_clariah.nt

@@ -1,4 +1,4 @@
-package kb;
+package com.metamatter.nde;
 
 import java.io.BufferedReader;
 import java.io.File;

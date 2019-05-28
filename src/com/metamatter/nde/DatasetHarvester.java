@@ -22,6 +22,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.xml.sax.SAXException;
 
+import com.metamatter.util.HarvestDocument;
 import com.metamatter.util.Prefix;
 import com.metamatter.util.Triples;
 
@@ -66,7 +67,7 @@ public class DatasetHarvester {
 			String triples = "";
 
 			// Get a list of datasets provided in the endpoint (metadata about the registry is not provided buy the registry itself)
-			JSONObject jsonObj = new JSONObject(searchResult(parameters.getRegistry()));
+			JSONObject jsonObj = new JSONObject(HarvestDocument.searchResultString(parameters.getRegistry()));
 			JSONArray jsonArr = jsonObj.getJSONArray("result");
 
 			System.out.println("iteration = " + i + " -- " + parameters.getRegistry());
@@ -78,7 +79,7 @@ public class DatasetHarvester {
 			
 			// Get description for each dataset in list
 			for (int j = 0; j < jsonArr.length(); j++) {
-				JSONObject datasetObj = new JSONObject( searchResult( parameters.getPrefixURL() + jsonArr.get(j) ) );
+				JSONObject datasetObj = new JSONObject( HarvestDocument.searchResultString( parameters.getPrefixURL() + jsonArr.get(j) ) );
 				triples += ds2triples(datasetObj.getJSONObject("result"), parameters.getPrefixURL() + jsonArr.get(j), uriReg);
 
 				System.out.println("iteration = " + j + " -- " + parameters.getPrefixURL() + jsonArr.get(j));
@@ -86,7 +87,7 @@ public class DatasetHarvester {
 			}
 
 			// write triples to file
-	    FileUtils.writeStringToFile(parameters.getFileOut(), triples , false);
+	    FileUtils.writeStringToFile(parameters.getFileOut(), triples , "ISO-8859-1");
 	    triples = "";
 
 		}
@@ -135,29 +136,5 @@ public class DatasetHarvester {
 		
 	}
 	
-	
-	/*
-	 * Method for fetching data through http client as a String
-	 */
-	private static String searchResult(String query) throws SAXException, IOException, ParserConfigurationException{
-		
-		HttpClient httpclient = HttpClients.createDefault();
-		
-		try {
-      HttpGet httpGetRequest = new HttpGet(query);
-      HttpResponse httpResponse = httpclient.execute(httpGetRequest);
-      System.out.println(httpResponse.getStatusLine());
-
-      // get XML from response and parse it to a DOM tree
-      HttpEntity entity = httpResponse.getEntity();
-      String data = EntityUtils.toString(entity);
-      //System.out.println(data);
-   		return (data);
-   		
-    } finally {
-      httpclient.getConnectionManager().shutdown();
-    }
-	}
-
 
 }

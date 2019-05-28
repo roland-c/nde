@@ -26,12 +26,14 @@ import org.w3c.dom.NodeList;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 
+import com.metamatter.util.HarvestDocument;
+
 public class AdlibReport {
 	
-//	private static String endpoint = "http://collectie.groningermuseum.nl/webapi/wwwopac.ashx";
-// private static String database = "collect";
-	private static String endpoint = "http://amdata.adlibsoft.com/wwwopac.ashx";
-	private static String database = "AMcollect";
+	private static String endpoint = "http://collectie.groningermuseum.nl/webapi/wwwopac.ashx";
+  private static String database = "collect";
+//	private static String endpoint = "http://amdata.adlibsoft.com/wwwopac.ashx";
+//	private static String database = "AMcollect";
 //	private static String endpoint = "http://service.aat-ned.nl/api/wwwopac.ashx";
 //	private static String database = "aat-xml";
 	
@@ -48,7 +50,7 @@ public class AdlibReport {
 		
 		System.out.println(q);
 		
-		Document doc = searchResult(q);
+		Document doc = HarvestDocument.searchResult(q);
   	NodeList records = doc.getElementsByTagName("record");
 				
   	for (int i = 0 ; i < records.getLength() ; i++) {
@@ -59,7 +61,7 @@ public class AdlibReport {
   			Node node = nodes.item(j);
   			Element element = (Element) node;
       	// System.out.println(element.getNodeName());
-  			if (report.containsKey(element.getNodeName() ) ) {
+  			if (report.containsKey(element.getNodeName()) && element.hasChildNodes() ) {
   				report.put(element.getNodeName(), report.get(element.getNodeName())+1 );
   			} else {
   				report.put(element.getNodeName(), 1 );
@@ -80,32 +82,4 @@ public class AdlibReport {
   	
 	}
 	
-	/*
-	 * Method for fetching data in DOM through http client
-	 */
-	public static Document searchResult(String query) throws SAXException, IOException, ParserConfigurationException{
-		
-		HttpClient httpClient = HttpClients.createDefault();
-		try {
-      HttpGet httpGetRequest = new HttpGet(query);
-      HttpResponse httpResponse = httpClient.execute(httpGetRequest);
-      System.out.println(httpResponse.getStatusLine());
-
-      // get XML from response and parse it to a DOM tree
-      HttpEntity entity = httpResponse.getEntity();
-      String xml = EntityUtils.toString(entity);
-      Document doc = null;
-      DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
-      DocumentBuilder db = dbf.newDocumentBuilder();
-      InputSource is = new InputSource();
-          is.setCharacterStream(new StringReader(xml));
-          doc = db.parse(is);
-      		return (doc);
-
-    } finally {
-      httpClient.getConnectionManager().shutdown();
-    }
-	}
-
-
 }

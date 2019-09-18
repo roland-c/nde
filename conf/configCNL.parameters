@@ -1,0 +1,32 @@
+registry.count = 2
+
+1.encoding = UTF-8
+1.registry = https://data.collectienederland.nl/sparql
+1.nameRegistry = Collectie Nederland
+1.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+1.fileOut = /opt/data/nde/bronnen/datasets_cnl.nt
+1.sparql = 	prefix dlv: <http://schemas.delving.eu/narthex/terms/> \
+						SELECT * WHERE { \
+						  ?s dlv:datasetName ?n . \
+						  ?s dlv:datasetOwner ?o . \
+						  OPTIONAL { ?s dlv:datasetAggregator ?a .} \
+						  OPTIONAL { ?s dlv:datasetRights ?r .} \
+						  OPTIONAL { ?s dlv:datasetDescription ?d .} \
+						  OPTIONAL { ?s dlv:harvestType ?t .} \
+						} 
+
+2.encoding = UTF-8
+2.registry = https://data.brabantcloud.nl/sparql
+2.nameRegistry = Brabant Cloud
+2.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+2.fileOut = /opt/data/nde/bronnen/datasets_brabant.nt
+2.sparql = 	prefix dlv: <http://schemas.delving.eu/narthex/terms/> \
+						SELECT * WHERE { \
+						  ?s dlv:datasetName ?n . \
+						  ?s dlv:datasetOwner ?o . \
+						  OPTIONAL { ?s dlv:datasetAggregator ?a .} \
+						  OPTIONAL { ?s dlv:datasetRights ?r .} \
+						  OPTIONAL { ?s dlv:datasetDescription ?d .} \
+						  OPTIONAL { ?s dlv:harvestType ?t .} \
+						} 
+						

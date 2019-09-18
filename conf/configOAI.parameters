@@ -1,0 +1,19 @@
+registry.count = 3
+
+1.encoding = UTF-8
+1.registry = https://openbeelden.nl/feeds/oai/
+1.nameRegistry = Open Beelden
+1.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+1.fileOut = /opt/data/nde/bronnen/datasets_openbeelden.nt
+
+2.encoding = UTF-8
+2.registry = http://europeana.data.digitalecollectie.nl/oai/
+2.nameRegistry = Digitale Collectie Nederland
+2.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+2.fileOut = /opt/data/nde/bronnen/datasets_digitaleCollectieNL.nt
+
+3.encoding = UTF-8
+3.registry = http://openskos.beeldengeluid.nl/oai-pmh
+3.nameRegistry = OpenSKOS
+3.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+3.fileOut = /opt/data/nde/bronnen/datasets_openskos.nt

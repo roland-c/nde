@@ -42,8 +42,9 @@ public class QueryEndpoint {
 		
 		int resultNr = 5000;
 		
-		String queryCount = query.replaceFirst("(.*)(?=WHERE)", "SELECT (count(*) as ?count) ").replace("ORDER BY ?s", "");
-		System.out.println(queryCount);
+		String queryCount = query.replaceFirst("(?<=SELECT)(.*)(?=WHERE)", " (count(*) as ?count) ");
+		
+		System.out.println("queryCount = " + queryCount );
 
     Model results = ModelFactory.createDefaultModel();
 

@@ -8,7 +8,7 @@ public class HarvesterParameters {
 		
 	}
 	
-	private String registry , prefixURL , prefixURI, nameRegistry ;
+	private String encoding, registry , prefixURL , prefixURI, nameRegistry ;
 	private File fileOut ;
 		
 	public String getRegistry(){
@@ -16,6 +16,13 @@ public class HarvesterParameters {
 	}
 	public void setRegistry(String value){
 		this.registry = value ;
+	}
+
+	public String getEncoding(){
+		return this.encoding;
+	}
+	public void setEncoding(String value){
+		this.encoding = value ;
 	}
 
 	public String getPrefixURL(){

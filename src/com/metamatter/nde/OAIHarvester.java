@@ -95,9 +95,8 @@ public class OAIHarvester {
 		  			triples += Triples.tripleL(uriSet, Prefix.nde + "description", ((Element) records.item(ii)).getElementsByTagName("setDescription").item(iii).getTextContent(), null);
 		  		} 
 		  	}
-	  		//System.out.println(nodes.item(0).getTextContent());
 
-	  		System.out.println(triples);
+	  		//System.out.println(triples);
 	  	}
 
 			

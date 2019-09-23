@@ -1,22 +1,29 @@
-registry.count = 3
+registry.count = 4
 
 ckan1.encoding = UTF-8
 ckan1.registry = https://opendata.picturae.com/api/action/package_list
 ckan1.nameRegistry = Picturae Opendata Platform
 ckan1.prefixURL = https://opendata.picturae.com/api/action/package_show?id=
 ckan1.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
-ckan1.fileOut = /opt/data/nde/bronnen/datasets_picturea.nt
+ckan1.fileOut = data/datasets_picturea.nt
 
 ckan2.encoding = UTF-8
 ckan2.registry = https://opendata.oorlogsbronnen.nl/api/action/package_list
 ckan2.nameRegistry = Oorlogsbronnen Collectieportal
 ckan2.prefixURL = https://opendata.oorlogsbronnen.nl/api/action/package_show?id=
 ckan2.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
-ckan2.fileOut = /opt/data/nde/bronnen/datasets_oorlogsbronnen.nt
+ckan2.fileOut = data/datasets_oorlogsbronnen.nt
 
 ckan3.encoding = UTF-8
 ckan3.registry = http://mediasuitedata.clariah.nl/api/action/package_list
 ckan3.nameRegistry = Clariah Labs Dataset Registry
 ckan3.prefixURL = http://mediasuitedata.clariah.nl/api/action/package_show?id=
-ckan3.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
-ckan3.fileOut = /opt/data/nde/bronnen/datasets_clariah.nt
+ckan3.prefixURI = http://lod.kb.nl/datasets/
+ckan3.fileOut = data/datasets_clariah.nt
+
+ckan4.encoding = UTF-8
+ckan4.registry = http://rotterdamopendata.nl/api/action/package_list
+ckan4.nameRegistry = Roterdam Opendatastore
+ckan4.prefixURL = http://rotterdamopendata.nl/api/action/package_show?id=
+ckan4.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+ckan4.fileOut = data/datasets_rotterdamODS.nt

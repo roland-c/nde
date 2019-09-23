@@ -1,19 +1,81 @@
-registry.count = 3
+registry.count = 13
 
 1.encoding = UTF-8
 1.registry = https://openbeelden.nl/feeds/oai/
 1.nameRegistry = Open Beelden
 1.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
-1.fileOut = /opt/data/nde/bronnen/datasets_openbeelden.nt
+1.fileOut = data/datasets_openbeelden.nt
 
 2.encoding = UTF-8
 2.registry = http://europeana.data.digitalecollectie.nl/oai/
 2.nameRegistry = Digitale Collectie Nederland
 2.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
-2.fileOut = /opt/data/nde/bronnen/datasets_digitaleCollectieNL.nt
+2.fileOut = data/datasets_digitalecollectieNL.nt
 
 3.encoding = UTF-8
 3.registry = http://openskos.beeldengeluid.nl/oai-pmh
 3.nameRegistry = OpenSKOS
 3.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
-3.fileOut = /opt/data/nde/bronnen/datasets_openskos.nt
+3.fileOut = data/datasets_openskos.nt
+
+4.encoding = UTF-8
+4.registry = http://services.kb.nl/mdo/oai
+4.nameRegistry = Koninklijke Bibliotheek OAIPMH
+4.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+4.fileOut = data/datasets_kb_oai.nt
+
+5.encoding = UTF-8
+5.registry = http://api.socialhistoryservices.org/solr/all/oai
+5.nameRegistry = International Institute of Social History
+5.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+5.fileOut = data/datasets_iish.nt
+
+6.encoding = UTF-8
+6.registry = https://actorenregister.nationaalarchief.nl/oai-pmh
+6.nameRegistry = Nationaal Archief Actorenregister
+6.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+6.fileOut = data/datasets_na_actorenregister.nt
+
+7.encoding = UTF-8
+7.registry = http://www.gahetna.nl/archievenoverzicht/oai-pmh
+7.nameRegistry = GaHetNa.nl
+7.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+7.fileOut = data/datasets_gahetna.nt
+
+8.encoding = UTF-8
+8.registry = https://maior.memorix.nl/api/oai/rce/key/858e0d9e-bf60-412d-80d6-7bbfcd754733/
+8.nameRegistry = Beeldbank RCE
+8.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+8.fileOut = data/datasets_rce_beeldbank.nt
+
+9.encoding = UTF-8
+9.registry = http://panic.image.ntua.gr:9000/fashionedmfp/oai
+9.nameRegistry = Modemuze
+9.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+9.fileOut = data/datasets_modemuze.nt
+
+10.encoding = UTF-8
+10.registry = https://www.rijksmuseum.nl/api/oai/2nRKrS0U
+10.nameRegistry = Rijksmuseum 
+10.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+10.fileOut = data/datasets_rijksmuseum.nt
+
+11.encoding = UTF-8
+11.registry = https://www.rijksmuseum.nl/api/oai/2nRKrS0U
+11.nameRegistry = RKD Images 
+11.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+11.fileOut = data/datasets_rkd_images.nt
+
+12.encoding = UTF-8
+12.registry = https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928
+12.nameRegistry = Tresoar: Alle Friezen
+12.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+12.fileOut = data/datasets_alle_friezen.nt
+
+13.encoding = UTF-8
+13.registry = http://api.socialhistoryservices.org/solr/all/oai
+13.nameRegistry = Internationaal Instituut voor Sociale Geschiedenis
+13.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+13.fileOut = data/datasets_iisg.nt
+
+

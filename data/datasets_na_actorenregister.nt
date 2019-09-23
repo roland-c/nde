@@ -1,0 +1,14 @@
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Archief_Actorenregister> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> . 
+<http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Archief_Actorenregister> <http://www.w3.org/2000/01/rdf-schema#label> "Nationaal Archief Actorenregister" . 
+<http://data.netwerkdigitaalerfgoed.nl/datasets/agencycode_NL_HaNA> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://data.netwerkdigitaalerfgoed.nl/datasets/agencycode_NL_HaNA> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Archief_Actorenregister> . 
+<http://data.netwerkdigitaalerfgoed.nl/datasets/agencycode_NL_HaNA> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <https%3A%2F%2Factorenregister.nationaalarchief.nl%2Foai-pmh%3Fverb%3DListSets> .
+<http://data.netwerkdigitaalerfgoed.nl/datasets/agencycode_NL_HaNA> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "List records for Nationaal Archief." . 
+<http://data.netwerkdigitaalerfgoed.nl/datasets/agencycode_NL_HaNA> <http://www.w3.org/2000/01/rdf-schema#label> "List records for Nationaal Archief." . 
+<http://data.netwerkdigitaalerfgoed.nl/datasets/agencycode_NL_HaNA> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "List records for Nationaal Archief." . 
+<http://data.netwerkdigitaalerfgoed.nl/datasets/agencycode_NL_NHDD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://data.netwerkdigitaalerfgoed.nl/datasets/agencycode_NL_NHDD> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://data.netwerkdigitaalerfgoed.nl/datasets/Nationaal_Archief_Actorenregister> . 
+<http://data.netwerkdigitaalerfgoed.nl/datasets/agencycode_NL_NHDD> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#source> <https%3A%2F%2Factorenregister.nationaalarchief.nl%2Foai-pmh%3Fverb%3DListSets> .
+<http://data.netwerkdigitaalerfgoed.nl/datasets/agencycode_NL_NHDD> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "List records for Doc-Direkt." . 
+<http://data.netwerkdigitaalerfgoed.nl/datasets/agencycode_NL_NHDD> <http://www.w3.org/2000/01/rdf-schema#label> "List records for Doc-Direkt." . 
+<http://data.netwerkdigitaalerfgoed.nl/datasets/agencycode_NL_NHDD> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "List records for Doc-Direkt." . 

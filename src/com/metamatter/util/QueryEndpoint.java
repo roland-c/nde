@@ -42,7 +42,7 @@ public class QueryEndpoint {
 		
 		int resultNr = 5000;
 		
-		String queryCount = query.replaceFirst("(?<=SELECT)(.*)(?=WHERE)", " (count(*) as ?count) ");
+		String queryCount = query.replaceFirst("(^.*)(?=WHERE)", "select (count(*) as ?count) ").replaceAll("BIND(.+)","}");
 		
 		System.out.println("queryCount = " + queryCount );
 
@@ -65,9 +65,8 @@ public class QueryEndpoint {
       		results.add( m );
       	}
       } else if (count>1) {
-      	QueryExecution qexec= QueryExecutionFactory.sparqlService(endpoint, query);
     		System.out.println(query);
-
+      	QueryExecution qexec= QueryExecutionFactory.sparqlService(endpoint, query);
         Model result = qexec.execConstruct();
         results.add(result);
       } 

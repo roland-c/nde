@@ -1,0 +1,19 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Muziekschatten" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Stichting_Omroep_Muziek> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten/som>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "De Stichting Omroep Muziekbibliotheek Catalogus (SOM)"@nl, "Stichting Omroep Muziek Bladmuziekcatalogus"@nl ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Muziekschatten> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "som" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#licenseOfMetadata> <http://opendatacommons.org/licenses/by/1.0/> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "De Stichting Omroep Muziekbibliotheek Catalogus (SOM)"@nl, "Stichting Omroep Muziek Bladmuziekcatalogus"@nl .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Stichting_Omroep_Muziek>
+    a <http://xmlns.com/foaf/0.1/Organization> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Stichting Omroep Muziek" .
+

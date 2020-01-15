@@ -1,0 +1,320 @@
+<http://lod.kb.nl/registry/OpenSKOS> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> . 
+<http://lod.kb.nl/registry/OpenSKOS> <http://www.w3.org/2000/01/rdf-schema#label> "OpenSKOS" . 
+<http://lod.kb.nl/registry/OpenSKOS> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <http://lod.kb.nl/registry/Beeld___Geluid> . 
+<http://lod.kb.nl/registry/Beeld___Geluid> <http://www.w3.org/2000/01/rdf-schema#label> "Beeld & Geluid" . 
+<http://lod.kb.nl/registry/Beeld___Geluid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng> <http://www.w3.org/2000/01/rdf-schema#label> "Nederlands Instituut voor Beeld en Geluid" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nederlands Instituut voor Beeld en Geluid" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nederlands Instituut voor Beeld en Geluid" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa> <http://www.w3.org/2000/01/rdf-schema#label> "Gemeenschappelijke Thesaurus Audiovisuele Archieven" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Gemeenschappelijke Thesaurus Audiovisuele Archieven" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Gemeenschappelijke Thesaurus Audiovisuele Archieven" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_138d0e62_d688_e289_f136_05ad7acc85a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_138d0e62_d688_e289_f136_05ad7acc85a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_138d0e62_d688_e289_f136_05ad7acc85a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_138d0e62_d688_e289_f136_05ad7acc85a2_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_138d0e62_d688_e289_f136_05ad7acc85a2_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_138d0e62_d688_e289_f136_05ad7acc85a2> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_138d0e62_d688_e289_f136_05ad7acc85a2_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_138d0e62_d688_e289_f136_05ad7acc85a2> <http://www.w3.org/2000/01/rdf-schema#label> "Persoonsnamen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_138d0e62_d688_e289_f136_05ad7acc85a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Persoonsnamen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_138d0e62_d688_e289_f136_05ad7acc85a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Persoonsnamen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_73fbf6f6_4e5c_5f53_f88e_3f73cc18b9c6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_73fbf6f6_4e5c_5f53_f88e_3f73cc18b9c6> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_73fbf6f6_4e5c_5f53_f88e_3f73cc18b9c6> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_73fbf6f6_4e5c_5f53_f88e_3f73cc18b9c6_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_73fbf6f6_4e5c_5f53_f88e_3f73cc18b9c6_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_73fbf6f6_4e5c_5f53_f88e_3f73cc18b9c6> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_73fbf6f6_4e5c_5f53_f88e_3f73cc18b9c6_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_73fbf6f6_4e5c_5f53_f88e_3f73cc18b9c6> <http://www.w3.org/2000/01/rdf-schema#label> "Namen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_73fbf6f6_4e5c_5f53_f88e_3f73cc18b9c6> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Namen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_73fbf6f6_4e5c_5f53_f88e_3f73cc18b9c6> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Namen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_6fc0e662_d073_e06b_c54e_dbcf75fc9b16> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_6fc0e662_d073_e06b_c54e_dbcf75fc9b16> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_6fc0e662_d073_e06b_c54e_dbcf75fc9b16> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_6fc0e662_d073_e06b_c54e_dbcf75fc9b16_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_6fc0e662_d073_e06b_c54e_dbcf75fc9b16_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_6fc0e662_d073_e06b_c54e_dbcf75fc9b16> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_6fc0e662_d073_e06b_c54e_dbcf75fc9b16_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_6fc0e662_d073_e06b_c54e_dbcf75fc9b16> <http://www.w3.org/2000/01/rdf-schema#label> "Onderwerpen beeld-geluid" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_6fc0e662_d073_e06b_c54e_dbcf75fc9b16> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Onderwerpen beeld-geluid" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_6fc0e662_d073_e06b_c54e_dbcf75fc9b16> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Onderwerpen beeld-geluid" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_52bd3e5f_a368_abed_59b2_6b0ccee5641d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_52bd3e5f_a368_abed_59b2_6b0ccee5641d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_52bd3e5f_a368_abed_59b2_6b0ccee5641d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_52bd3e5f_a368_abed_59b2_6b0ccee5641d_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_52bd3e5f_a368_abed_59b2_6b0ccee5641d_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_52bd3e5f_a368_abed_59b2_6b0ccee5641d> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_52bd3e5f_a368_abed_59b2_6b0ccee5641d_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_52bd3e5f_a368_abed_59b2_6b0ccee5641d> <http://www.w3.org/2000/01/rdf-schema#label> "Onderwerpen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_52bd3e5f_a368_abed_59b2_6b0ccee5641d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Onderwerpen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_52bd3e5f_a368_abed_59b2_6b0ccee5641d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Onderwerpen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_5cfb534c_35e6_ce69_a040_85a7b6fc4530> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_5cfb534c_35e6_ce69_a040_85a7b6fc4530> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_5cfb534c_35e6_ce69_a040_85a7b6fc4530> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_5cfb534c_35e6_ce69_a040_85a7b6fc4530_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_5cfb534c_35e6_ce69_a040_85a7b6fc4530_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_5cfb534c_35e6_ce69_a040_85a7b6fc4530> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_5cfb534c_35e6_ce69_a040_85a7b6fc4530_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_5cfb534c_35e6_ce69_a040_85a7b6fc4530> <http://www.w3.org/2000/01/rdf-schema#label> "Genre" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_5cfb534c_35e6_ce69_a040_85a7b6fc4530> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Genre" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_5cfb534c_35e6_ce69_a040_85a7b6fc4530> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Genre" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_f3deec83_a6e8_d368_971b_757d872d3ab9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_f3deec83_a6e8_d368_971b_757d872d3ab9> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_f3deec83_a6e8_d368_971b_757d872d3ab9> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_f3deec83_a6e8_d368_971b_757d872d3ab9_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_f3deec83_a6e8_d368_971b_757d872d3ab9_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_f3deec83_a6e8_d368_971b_757d872d3ab9> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_f3deec83_a6e8_d368_971b_757d872d3ab9_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_f3deec83_a6e8_d368_971b_757d872d3ab9> <http://www.w3.org/2000/01/rdf-schema#label> "Geografische namen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_f3deec83_a6e8_d368_971b_757d872d3ab9> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Geografische namen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_f3deec83_a6e8_d368_971b_757d872d3ab9> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Geografische namen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_943ff48d_3a40_4a00_5fa0_d40fb701500a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_943ff48d_3a40_4a00_5fa0_d40fb701500a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_943ff48d_3a40_4a00_5fa0_d40fb701500a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_943ff48d_3a40_4a00_5fa0_d40fb701500a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_943ff48d_3a40_4a00_5fa0_d40fb701500a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_943ff48d_3a40_4a00_5fa0_d40fb701500a> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_943ff48d_3a40_4a00_5fa0_d40fb701500a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_943ff48d_3a40_4a00_5fa0_d40fb701500a> <http://www.w3.org/2000/01/rdf-schema#label> "Classificatie" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_943ff48d_3a40_4a00_5fa0_d40fb701500a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Classificatie" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_943ff48d_3a40_4a00_5fa0_d40fb701500a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Classificatie" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_74198d3e_8fa9_0dba_6136_a3ba8b37ffb0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_74198d3e_8fa9_0dba_6136_a3ba8b37ffb0> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_74198d3e_8fa9_0dba_6136_a3ba8b37ffb0> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_74198d3e_8fa9_0dba_6136_a3ba8b37ffb0_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_74198d3e_8fa9_0dba_6136_a3ba8b37ffb0_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_74198d3e_8fa9_0dba_6136_a3ba8b37ffb0> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_74198d3e_8fa9_0dba_6136_a3ba8b37ffb0_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_74198d3e_8fa9_0dba_6136_a3ba8b37ffb0> <http://www.w3.org/2000/01/rdf-schema#label> "test scheme" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_74198d3e_8fa9_0dba_6136_a3ba8b37ffb0> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "test scheme" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_74198d3e_8fa9_0dba_6136_a3ba8b37ffb0> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "test scheme" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_d75526a1_e5b5_9ccd_9753_e3e83613c735> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_d75526a1_e5b5_9ccd_9753_e3e83613c735> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_d75526a1_e5b5_9ccd_9753_e3e83613c735> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_d75526a1_e5b5_9ccd_9753_e3e83613c735_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_d75526a1_e5b5_9ccd_9753_e3e83613c735_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_d75526a1_e5b5_9ccd_9753_e3e83613c735> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_d75526a1_e5b5_9ccd_9753_e3e83613c735_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_d75526a1_e5b5_9ccd_9753_e3e83613c735> <http://www.w3.org/2000/01/rdf-schema#label> "Maker" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_d75526a1_e5b5_9ccd_9753_e3e83613c735> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Maker" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_d75526a1_e5b5_9ccd_9753_e3e83613c735> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Maker" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> <http://www.w3.org/2000/01/rdf-schema#label> "qatesting EN" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "qatesting EN" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "qatesting EN" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> <http://www.w3.org/2000/01/rdf-schema#label> "qatesting NL" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "qatesting NL" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_28ce1378_b1b1_4691_9fa2_5cd174d3e0a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "qatesting NL" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> <http://www.w3.org/2000/01/rdf-schema#label> "qatest2cs" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "qatest2cs" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "qatest2cs" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> <http://www.w3.org/2000/01/rdf-schema#label> "qatest2cs" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "qatest2cs" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_54891bb7_de88_45f5_80d9_58715faf63a2> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "qatest2cs" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_9a3e9ab2_8c12_d968_82cf_56c6deb1092b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_9a3e9ab2_8c12_d968_82cf_56c6deb1092b> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_9a3e9ab2_8c12_d968_82cf_56c6deb1092b> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_9a3e9ab2_8c12_d968_82cf_56c6deb1092b_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_9a3e9ab2_8c12_d968_82cf_56c6deb1092b_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_9a3e9ab2_8c12_d968_82cf_56c6deb1092b> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_9a3e9ab2_8c12_d968_82cf_56c6deb1092b_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_9a3e9ab2_8c12_d968_82cf_56c6deb1092b> <http://www.w3.org/2000/01/rdf-schema#label> "Programmatitels" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_9a3e9ab2_8c12_d968_82cf_56c6deb1092b> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Programmatitels" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_gtaa_9a3e9ab2_8c12_d968_82cf_56c6deb1092b> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Programmatitels" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa> <http://www.w3.org/2000/01/rdf-schema#label> "Beeld en Geluid Thesaurus assen voor intern gebruik" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Beeld en Geluid Thesaurus assen voor intern gebruik" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Beeld en Geluid Thesaurus assen voor intern gebruik" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_b63c14f3_0f4a_b20f_5c85_e323f36b83ca> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_b63c14f3_0f4a_b20f_5c85_e323f36b83ca> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_b63c14f3_0f4a_b20f_5c85_e323f36b83ca> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_b63c14f3_0f4a_b20f_5c85_e323f36b83ca_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_b63c14f3_0f4a_b20f_5c85_e323f36b83ca_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_b63c14f3_0f4a_b20f_5c85_e323f36b83ca> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_b63c14f3_0f4a_b20f_5c85_e323f36b83ca_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_b63c14f3_0f4a_b20f_5c85_e323f36b83ca> <http://www.w3.org/2000/01/rdf-schema#label> "Productie" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_b63c14f3_0f4a_b20f_5c85_e323f36b83ca> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Productie" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_b63c14f3_0f4a_b20f_5c85_e323f36b83ca> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Productie" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_754b3e2d_30ab_e784_6e3e_df7fb4be981e> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_754b3e2d_30ab_e784_6e3e_df7fb4be981e> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_754b3e2d_30ab_e784_6e3e_df7fb4be981e> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_754b3e2d_30ab_e784_6e3e_df7fb4be981e_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_754b3e2d_30ab_e784_6e3e_df7fb4be981e_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_754b3e2d_30ab_e784_6e3e_df7fb4be981e> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_754b3e2d_30ab_e784_6e3e_df7fb4be981e_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_754b3e2d_30ab_e784_6e3e_df7fb4be981e> <http://www.w3.org/2000/01/rdf-schema#label> "Zender" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_754b3e2d_30ab_e784_6e3e_df7fb4be981e> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Zender" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_754b3e2d_30ab_e784_6e3e_df7fb4be981e> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Zender" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_9cf73085_488f_4a42_4525_92b17420ddd9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_9cf73085_488f_4a42_4525_92b17420ddd9> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_9cf73085_488f_4a42_4525_92b17420ddd9> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_9cf73085_488f_4a42_4525_92b17420ddd9_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_9cf73085_488f_4a42_4525_92b17420ddd9_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_9cf73085_488f_4a42_4525_92b17420ddd9> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_9cf73085_488f_4a42_4525_92b17420ddd9_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_9cf73085_488f_4a42_4525_92b17420ddd9> <http://www.w3.org/2000/01/rdf-schema#label> "Zendgemachtigden" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_9cf73085_488f_4a42_4525_92b17420ddd9> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Zendgemachtigden" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_9cf73085_488f_4a42_4525_92b17420ddd9> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Zendgemachtigden" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_7a5d85c0_1d2a_4012_07a7_57fc836dd67c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_7a5d85c0_1d2a_4012_07a7_57fc836dd67c> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_7a5d85c0_1d2a_4012_07a7_57fc836dd67c> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_7a5d85c0_1d2a_4012_07a7_57fc836dd67c_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_7a5d85c0_1d2a_4012_07a7_57fc836dd67c_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_7a5d85c0_1d2a_4012_07a7_57fc836dd67c> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_7a5d85c0_1d2a_4012_07a7_57fc836dd67c_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_7a5d85c0_1d2a_4012_07a7_57fc836dd67c> <http://www.w3.org/2000/01/rdf-schema#label> "Taal" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_7a5d85c0_1d2a_4012_07a7_57fc836dd67c> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Taal" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_7a5d85c0_1d2a_4012_07a7_57fc836dd67c> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Taal" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_efc26156_a743_db8d_31f7_1b1667b46cf3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_efc26156_a743_db8d_31f7_1b1667b46cf3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_efc26156_a743_db8d_31f7_1b1667b46cf3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_efc26156_a743_db8d_31f7_1b1667b46cf3_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_efc26156_a743_db8d_31f7_1b1667b46cf3_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_efc26156_a743_db8d_31f7_1b1667b46cf3> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_efc26156_a743_db8d_31f7_1b1667b46cf3_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_efc26156_a743_db8d_31f7_1b1667b46cf3> <http://www.w3.org/2000/01/rdf-schema#label> "Muziekstijl" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_efc26156_a743_db8d_31f7_1b1667b46cf3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Muziekstijl" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_efc26156_a743_db8d_31f7_1b1667b46cf3> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Muziekstijl" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_3a4b8234_69a4_ef69_b890_2cbe915b1b54> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_3a4b8234_69a4_ef69_b890_2cbe915b1b54> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_3a4b8234_69a4_ef69_b890_2cbe915b1b54> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_3a4b8234_69a4_ef69_b890_2cbe915b1b54_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_3a4b8234_69a4_ef69_b890_2cbe915b1b54_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_3a4b8234_69a4_ef69_b890_2cbe915b1b54> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_3a4b8234_69a4_ef69_b890_2cbe915b1b54_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_3a4b8234_69a4_ef69_b890_2cbe915b1b54> <http://www.w3.org/2000/01/rdf-schema#label> "Doelgroep" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_3a4b8234_69a4_ef69_b890_2cbe915b1b54> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Doelgroep" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_3a4b8234_69a4_ef69_b890_2cbe915b1b54> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Doelgroep" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_07b47733_fbb3_c861_7726_249a23cc3c7f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_07b47733_fbb3_c861_7726_249a23cc3c7f> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_07b47733_fbb3_c861_7726_249a23cc3c7f> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_07b47733_fbb3_c861_7726_249a23cc3c7f_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_07b47733_fbb3_c861_7726_249a23cc3c7f_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_07b47733_fbb3_c861_7726_249a23cc3c7f> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_07b47733_fbb3_c861_7726_249a23cc3c7f_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_07b47733_fbb3_c861_7726_249a23cc3c7f> <http://www.w3.org/2000/01/rdf-schema#label> "Programmatitels" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_07b47733_fbb3_c861_7726_249a23cc3c7f> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Programmatitels" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_07b47733_fbb3_c861_7726_249a23cc3c7f> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Programmatitels" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_deaf3e6d_8938_5f6f_d38b_7479f6e85540> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_deaf3e6d_8938_5f6f_d38b_7479f6e85540> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_deaf3e6d_8938_5f6f_d38b_7479f6e85540> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_deaf3e6d_8938_5f6f_d38b_7479f6e85540_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_deaf3e6d_8938_5f6f_d38b_7479f6e85540_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_deaf3e6d_8938_5f6f_d38b_7479f6e85540> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_deaf3e6d_8938_5f6f_d38b_7479f6e85540_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_deaf3e6d_8938_5f6f_d38b_7479f6e85540> <http://www.w3.org/2000/01/rdf-schema#label> "Nationaliteit" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_deaf3e6d_8938_5f6f_d38b_7479f6e85540> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nationaliteit" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_nongtaa_deaf3e6d_8938_5f6f_d38b_7479f6e85540> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nationaliteit" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_expired> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired> <http://www.w3.org/2000/01/rdf-schema#label> "Vervallen Assen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Vervallen Assen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Vervallen Assen" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_38eae21e_d4ad_c9f9_bccc_a79a714cf71f> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_38eae21e_d4ad_c9f9_bccc_a79a714cf71f> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_38eae21e_d4ad_c9f9_bccc_a79a714cf71f> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_38eae21e_d4ad_c9f9_bccc_a79a714cf71f_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_38eae21e_d4ad_c9f9_bccc_a79a714cf71f_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_expired_38eae21e_d4ad_c9f9_bccc_a79a714cf71f> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_38eae21e_d4ad_c9f9_bccc_a79a714cf71f_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_38eae21e_d4ad_c9f9_bccc_a79a714cf71f> <http://www.w3.org/2000/01/rdf-schema#label> "RVDgenre OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_38eae21e_d4ad_c9f9_bccc_a79a714cf71f> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "RVDgenre OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_38eae21e_d4ad_c9f9_bccc_a79a714cf71f> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "RVDgenre OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_10210266_3936_6f82_496b_f290431ab1ee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_10210266_3936_6f82_496b_f290431ab1ee> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_10210266_3936_6f82_496b_f290431ab1ee> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_10210266_3936_6f82_496b_f290431ab1ee_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_10210266_3936_6f82_496b_f290431ab1ee_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_expired_10210266_3936_6f82_496b_f290431ab1ee> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_10210266_3936_6f82_496b_f290431ab1ee_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_10210266_3936_6f82_496b_f290431ab1ee> <http://www.w3.org/2000/01/rdf-schema#label> "Genre Filmmuseum" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_10210266_3936_6f82_496b_f290431ab1ee> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Genre Filmmuseum" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_10210266_3936_6f82_496b_f290431ab1ee> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Genre Filmmuseum" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fa37e482_ecde_dd5f_e001_9defde1cd4ea> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fa37e482_ecde_dd5f_e001_9defde1cd4ea> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fa37e482_ecde_dd5f_e001_9defde1cd4ea> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fa37e482_ecde_dd5f_e001_9defde1cd4ea_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fa37e482_ecde_dd5f_e001_9defde1cd4ea_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_expired_fa37e482_ecde_dd5f_e001_9defde1cd4ea> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fa37e482_ecde_dd5f_e001_9defde1cd4ea_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fa37e482_ecde_dd5f_e001_9defde1cd4ea> <http://www.w3.org/2000/01/rdf-schema#label> "Maker" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fa37e482_ecde_dd5f_e001_9defde1cd4ea> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Maker" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fa37e482_ecde_dd5f_e001_9defde1cd4ea> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Maker" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b978ff4c_a97a_ff11_595d_bcee8d297ea0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b978ff4c_a97a_ff11_595d_bcee8d297ea0> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b978ff4c_a97a_ff11_595d_bcee8d297ea0> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b978ff4c_a97a_ff11_595d_bcee8d297ea0_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b978ff4c_a97a_ff11_595d_bcee8d297ea0_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_expired_b978ff4c_a97a_ff11_595d_bcee8d297ea0> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b978ff4c_a97a_ff11_595d_bcee8d297ea0_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b978ff4c_a97a_ff11_595d_bcee8d297ea0> <http://www.w3.org/2000/01/rdf-schema#label> "Radiotrefwoorden OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b978ff4c_a97a_ff11_595d_bcee8d297ea0> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Radiotrefwoorden OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b978ff4c_a97a_ff11_595d_bcee8d297ea0> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Radiotrefwoorden OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b13c0c56_8f19_87c7_abc6_e19a4f137b09> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b13c0c56_8f19_87c7_abc6_e19a4f137b09> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b13c0c56_8f19_87c7_abc6_e19a4f137b09> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b13c0c56_8f19_87c7_abc6_e19a4f137b09_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b13c0c56_8f19_87c7_abc6_e19a4f137b09_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_expired_b13c0c56_8f19_87c7_abc6_e19a4f137b09> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b13c0c56_8f19_87c7_abc6_e19a4f137b09_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b13c0c56_8f19_87c7_abc6_e19a4f137b09> <http://www.w3.org/2000/01/rdf-schema#label> "TVtrefwoorden OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b13c0c56_8f19_87c7_abc6_e19a4f137b09> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "TVtrefwoorden OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b13c0c56_8f19_87c7_abc6_e19a4f137b09> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "TVtrefwoorden OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_a15ca906_f525_9b66_91b9_e8deb99e4219> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_a15ca906_f525_9b66_91b9_e8deb99e4219> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_a15ca906_f525_9b66_91b9_e8deb99e4219> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_a15ca906_f525_9b66_91b9_e8deb99e4219_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_a15ca906_f525_9b66_91b9_e8deb99e4219_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_expired_a15ca906_f525_9b66_91b9_e8deb99e4219> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_a15ca906_f525_9b66_91b9_e8deb99e4219_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_a15ca906_f525_9b66_91b9_e8deb99e4219> <http://www.w3.org/2000/01/rdf-schema#label> "RVDpersonen OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_a15ca906_f525_9b66_91b9_e8deb99e4219> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "RVDpersonen OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_a15ca906_f525_9b66_91b9_e8deb99e4219> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "RVDpersonen OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_68c7caab_c8f2_9cd1_c675_95c2dc2f8eb9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_68c7caab_c8f2_9cd1_c675_95c2dc2f8eb9> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_68c7caab_c8f2_9cd1_c675_95c2dc2f8eb9> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_68c7caab_c8f2_9cd1_c675_95c2dc2f8eb9_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_68c7caab_c8f2_9cd1_c675_95c2dc2f8eb9_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_expired_68c7caab_c8f2_9cd1_c675_95c2dc2f8eb9> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_68c7caab_c8f2_9cd1_c675_95c2dc2f8eb9_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_68c7caab_c8f2_9cd1_c675_95c2dc2f8eb9> <http://www.w3.org/2000/01/rdf-schema#label> "RVDtrefwoorden OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_68c7caab_c8f2_9cd1_c675_95c2dc2f8eb9> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "RVDtrefwoorden OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_68c7caab_c8f2_9cd1_c675_95c2dc2f8eb9> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "RVDtrefwoorden OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fe1b58c4_cac2_4d46_f263_318fe8b47780> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fe1b58c4_cac2_4d46_f263_318fe8b47780> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fe1b58c4_cac2_4d46_f263_318fe8b47780> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fe1b58c4_cac2_4d46_f263_318fe8b47780_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fe1b58c4_cac2_4d46_f263_318fe8b47780_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_expired_fe1b58c4_cac2_4d46_f263_318fe8b47780> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fe1b58c4_cac2_4d46_f263_318fe8b47780_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fe1b58c4_cac2_4d46_f263_318fe8b47780> <http://www.w3.org/2000/01/rdf-schema#label> "Radiogenre OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fe1b58c4_cac2_4d46_f263_318fe8b47780> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Radiogenre OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_fe1b58c4_cac2_4d46_f263_318fe8b47780> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Radiogenre OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b458a84f_c50b_b3bb_6171_1ff916bb0f2d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b458a84f_c50b_b3bb_6171_1ff916bb0f2d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/OpenSKOS> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b458a84f_c50b_b3bb_6171_1ff916bb0f2d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b458a84f_c50b_b3bb_6171_1ff916bb0f2d_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b458a84f_c50b_b3bb_6171_1ff916bb0f2d_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/OpenSKOS/beng_expired_b458a84f_c50b_b3bb_6171_1ff916bb0f2d> . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b458a84f_c50b_b3bb_6171_1ff916bb0f2d_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://openskos.beeldengeluid.nl/oai-pmh?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b458a84f_c50b_b3bb_6171_1ff916bb0f2d> <http://www.w3.org/2000/01/rdf-schema#label> "TVgenre OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b458a84f_c50b_b3bb_6171_1ff916bb0f2d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "TVgenre OUD" . 
+<http://lod.kb.nl/registry/OpenSKOS/beng_expired_b458a84f_c50b_b3bb_6171_1ff916bb0f2d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "TVgenre OUD" . 

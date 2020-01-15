@@ -1,0 +1,53 @@
+registry.count = 3
+
+1.registry = https://data.bibliotheken.nl/sparql
+1.nameRegistry = Koninklijke Bibliotheek LOD
+1.organization = Koninklijke Bibliotheek
+1.fileOut = data/datasets_kb_lod.nt
+1.encoding = UTF-8
+1.prefixURI = https://data.netwerkdigitaalerfgoed.nl/registry/
+1.sparql = 	prefix schema: <http://schema.org/> \
+						prefix void: <http://rdfs.org/ns/void#> \
+						prefix dctype: <http://purl.org/dc/dcmitype/> \
+						SELECT distinct ?s WHERE { \
+						 { ?s a schema:Dataset } \
+						 UNION \
+						 { ?s a void:Dataset } \ 
+						 UNION \
+						 { ?s a dctype:Dataset } \ 
+						} 
+
+2.registry = http://data.muziekschatten.nl/sparql
+2.nameRegistry = Muziekschatten
+2.organization = Stichting Omroep Muziek
+2.fileOut = data/datasets_muziekschatten.nt
+2.encoding = UTF-8
+2.prefixURI = https://data.netwerkdigitaalerfgoed.nl/registry/
+2.sparql = 	prefix schema: <http://schema.org/> \
+						prefix void: <http://rdfs.org/ns/void#> \
+						prefix dctype: <http://purl.org/dc/dcmitype/> \
+						SELECT distinct ?s WHERE { \
+						 { ?s a schema:Dataset } \
+						 UNION \
+						 { ?s a void:Dataset } \ 
+						 UNION \
+						 { ?s a dctype:Dataset } \ 
+						} 
+
+3.registry = http://lod.kb.nl/sparql
+3.nameRegistry = HackaLOD
+3.organization = Netwerk Digitaal Erfgoed
+3.fileOut = data/datasets_hackalod.nt
+3.encoding = UTF-8
+3.prefixURI = https://data.netwerkdigitaalerfgoed.nl/registry/
+3.sparql = 	prefix schema: <http://schema.org/> \
+						prefix void: <http://rdfs.org/ns/void#> \
+						prefix dctype: <http://purl.org/dc/dcmitype/> \
+						SELECT distinct ?s WHERE { \
+						 { ?s a schema:Dataset } \
+						 UNION \
+						 { ?s a void:Dataset } \ 
+						 UNION \
+						 { ?s a dctype:Dataset } \ 
+						} 
+						

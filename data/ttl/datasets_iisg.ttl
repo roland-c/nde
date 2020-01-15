@@ -1,0 +1,319 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis>
+    a <http://xmlns.com/foaf/0.1/Organization>, <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Internationaal Instituut voor Sociale Geschiedenis" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/IISG>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "IISG collections" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "IISG collections" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "IISG collections" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/IISG_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/IISG> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/PM>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Persmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Persmuseum" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Persmuseum" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/PM_HahnAlbert>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Persmuseum Hahn Albert" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Persmuseum Hahn Albert" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Persmuseum Hahn Albert" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/PM_HahnAlbert_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/PM_HahnAlbert> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/PM_archive>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Persmuseum archive" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Persmuseum archive" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Persmuseum archive" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/PM_archive_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/PM_archive> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/PM_biblio>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Persmuseum bibliographies" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Persmuseum bibliographies" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Persmuseum bibliographies" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/PM_biblio_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/PM_biblio> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/PM_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/PM> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_AHP>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Algemeen Hollands Fotopersburo" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Algemeen Hollands Fotopersburo" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Algemeen Hollands Fotopersburo" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_AHP_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_AHP> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_DutchLabourMovements>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Dutch labour Movements" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Dutch labour Movements" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Dutch labour Movements" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_DutchLabourMovements_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_DutchLabourMovements> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_DutchPoliticalSocialMovements>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Posters Dutch political and social movements 1890-1995" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Posters Dutch political and social movements 1890-1995" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Posters Dutch political and social movements 1890-1995" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_DutchPoliticalSocialMovements_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_DutchPoliticalSocialMovements> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_EuropeanSocialMovements>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Social movements 19-20th century photo's en posters" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Social movements 19-20th century photo's en posters" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Social movements 19-20th century photo's en posters" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_EuropeanSocialMovements_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_EuropeanSocialMovements> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_NonEuropeanMovement>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Social movements 19-20th century photo's en posters" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Social movements 19-20th century photo's en posters" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Social movements 19-20th century photo's en posters" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_NonEuropeanMovement_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_NonEuropeanMovement> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_ParadisoMelkweg>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Posters paradiso en melkweg" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Posters paradiso en melkweg" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Posters paradiso en melkweg" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_ParadisoMelkweg_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/VIS_ParadisoMelkweg> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/iish_archieven>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Archives" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Archives" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Archives" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/iish_archieven_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/iish_archieven> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/iish_eci>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Audio and visual material" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Audio and visual material" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Audio and visual material" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/iish_eci_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/iish_eci> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/iish_evergreen_authority>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "IISH library catalog authority list" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "IISH library catalog authority list" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "IISH library catalog authority list" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/iish_evergreen_authority_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/iish_evergreen_authority> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/iish_evergreen_biblio>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "IISH library catalog bibliographies" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "IISH library catalog bibliographies" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "IISH library catalog bibliographies" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/iish_evergreen_biblio_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/iish_evergreen_biblio> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/irsh>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "International Review of Social History" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "International Review of Social History" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "International Review of Social History" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/irsh_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/irsh> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "No digital content" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "No digital content" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "No digital content" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_archives>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "No Digital Content Archives" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "No Digital Content Archives" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "No Digital Content Archives" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_archives_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_archives> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_books_and_brochures>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "No Digital Content Book" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "No Digital Content Book" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "No Digital Content Book" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_books_and_brochures_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_books_and_brochures> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_documentation>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "No Digital Content Documentation" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "No Digital Content Documentation" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "No Digital Content Documentation" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_documentation_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_documentation> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_music_and_sound>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "No Digital Content Music and Sound" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "No Digital Content Music and Sound" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "No Digital Content Music and Sound" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_music_and_sound_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_music_and_sound> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_other>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "No Digital Content Miscellaneous" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "No Digital Content Miscellaneous" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "No Digital Content Miscellaneous" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_other_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_other> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_serials>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "No Digital Content Serial" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "No Digital Content Serial" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "No Digital Content Serial" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_serials_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_serials> .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_visual_documents>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "No Digital Content Visual documents" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "No Digital Content Visual documents" ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <https://data.netwerkdigitaalerfgoed.nl/registry/xml> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "No Digital Content Visual documents" .
+
+<https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_visual_documents_distribution>
+    a <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "http://api.socialhistoryservices.org/solr/all/oai?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri> ;
+    <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <https://data.netwerkdigitaalerfgoed.nl/registry/Internationaal_Instituut_voor_Sociale_Geschiedenis/nondig_visual_documents> .
+

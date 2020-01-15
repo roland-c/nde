@@ -2,8 +2,9 @@ registry.count = 2
 
 1.encoding = UTF-8
 1.registry = https://data.collectienederland.nl/sparql
-1.nameRegistry = Collectie Nederland
-1.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+1.nameRegistry = Digitale Collectie
+1.organization = RCE
+1.prefixURI = https://data.netwerkdigitaalerfgoed.nl/registry/
 1.fileOut = data/datasets_cnl.nt
 1.sparql = 	prefix dlv: <http://schemas.delving.eu/narthex/terms/> \
 						SELECT * WHERE { \
@@ -18,7 +19,8 @@ registry.count = 2
 2.encoding = UTF-8
 2.registry = https://data.brabantcloud.nl/sparql
 2.nameRegistry = Brabant Cloud
-2.prefixURI = http://data.netwerkdigitaalerfgoed.nl/datasets/
+2.organization = Erfgoed Brabant
+2.prefixURI = https://data.netwerkdigitaalerfgoed.nl/registry/
 2.fileOut = data/datasets_brabant.nt
 2.sparql = 	prefix dlv: <http://schemas.delving.eu/narthex/terms/> \
 						SELECT * WHERE { \

@@ -67,7 +67,7 @@ public class Triples {
 	/*
 	 * Function for assembling a triple where the object is a Literal  
 	 * Parameter type is for datatype or language specification
-	 * language as in lang:nl
+	 * language is specified as  lang:nl  or  @
 	 */ 
 	public static String tripleL (String subj, String pred, String obj, String type) {
 		obj = obj.replaceAll("\"", "\'").replaceAll("\n", " ").replaceAll("\\\\", "").trim();
@@ -83,6 +83,10 @@ public class Triples {
 			}
 		} else if (type.contains("lang:")) {
 			triple += obj + "\"@" + type.substring(type.lastIndexOf(":")+1) + " . \n" ;
+		
+		} else if (type.contains("@")) {
+			triple += obj.substring(0, obj.lastIndexOf("@")) + "\""+  obj.substring(obj.lastIndexOf("@"), obj.length()) + " . \n" ;
+
 		} else  {
 			triple += obj + "\"^^<" + type + ">. \n" ;
 		}

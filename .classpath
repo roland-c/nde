@@ -4,7 +4,7 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jena39"/>
 	<classpathentry kind="lib" path="/opt/libs/opencsv-3.7.jar"/>
 	<classpathentry kind="lib" path="/opt/libs/java-json.jar"/>
-	<classpathentry kind="lib" path="/opt/apache/commons-configuration2-2.4/commons-configuration2-2.4.jar"/>
+	<classpathentry kind="lib" path="/opt/apache/commons-configuration2-2.6/commons-configuration2-2.6.jar"/>
 	<classpathentry kind="lib" path="/opt/apache/commons-beanutils-1.9.3/commons-beanutils-1.9.3.jar"/>
 	<classpathentry kind="lib" path="/opt/apache/commons-lang-2.6/commons-lang-2.6.jar"/>
 	<classpathentry kind="lib" path="/opt/apache/commons-text-1.6/commons-text-1.6.jar"/>

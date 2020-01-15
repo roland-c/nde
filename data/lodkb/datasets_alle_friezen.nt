@@ -1,0 +1,374 @@
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Registry> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen> <http://www.w3.org/2000/01/rdf-schema#label> "Tresoar: Alle Friezen" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#administrator> <http://lod.kb.nl/registry/Tresoar> . 
+<http://lod.kb.nl/registry/Tresoar> <http://www.w3.org/2000/01/rdf-schema#label> "Tresoar" . 
+<http://lod.kb.nl/registry/Tresoar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Organization> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bb_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bb_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bb_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bb_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bb_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bb_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bb_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bb_a> <http://www.w3.org/2000/01/rdf-schema#label> "Burgerboeken Inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bb_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Burgerboeken Inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bb_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Burgerboeken Inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/be_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/be_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/be_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/be_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/be_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/be_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/be_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/be_a> <http://www.w3.org/2000/01/rdf-schema#label> "Quotisatie kohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/be_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Quotisatie kohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/be_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Quotisatie kohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/br_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/br_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/br_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/br_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/br_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/br_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/br_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/br_a> <http://www.w3.org/2000/01/rdf-schema#label> "inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/br_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/br_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_g> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_g> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_g> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_g_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_g_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_g> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_g_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_g> <http://www.w3.org/2000/01/rdf-schema#label> "BS Geboorte akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_g> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "BS Geboorte akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_g> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "BS Geboorte akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_h> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_h> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_h_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_h_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_h> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_h_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_h> <http://www.w3.org/2000/01/rdf-schema#label> "BS Huwelijk akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_h> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "BS Huwelijk akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_h> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "BS Huwelijk akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_o> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_o> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_o> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_o_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_o_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_o> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_o_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_o> <http://www.w3.org/2000/01/rdf-schema#label> "BS Overlijden akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_o> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "BS Overlijden akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/bs_o> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "BS Overlijden akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cc_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cc_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cc_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cc_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cc_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cc_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cc_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cc_a> <http://www.w3.org/2000/01/rdf-schema#label> "Rolboeken arr. rechtbanken inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cc_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Rolboeken arr. rechtbanken inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cc_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Rolboeken arr. rechtbanken inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cv_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cv_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cv_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cv_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cv_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cv_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cv_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cv_a> <http://www.w3.org/2000/01/rdf-schema#label> "Registres civiques inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cv_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Registres civiques inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/cv_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Registres civiques inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_b> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_b> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_b_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_b_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_b> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_b_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_b> <http://www.w3.org/2000/01/rdf-schema#label> "DTB begraven inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_b> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "DTB begraven inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_b> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "DTB begraven inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_d_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_d_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_d> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_d_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_d> <http://www.w3.org/2000/01/rdf-schema#label> "DTB geboortes / dopen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "DTB geboortes / dopen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_d> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "DTB geboortes / dopen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_l> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_l> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_l> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_l_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_l_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_l> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_l_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_l> <http://www.w3.org/2000/01/rdf-schema#label> "DTB Lidmaten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_l> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "DTB Lidmaten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_l> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "DTB Lidmaten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_t> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_t> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_t> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_t_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_t_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_t> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_t_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_t> <http://www.w3.org/2000/01/rdf-schema#label> "DTB Trouwen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_t> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "DTB Trouwen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/dtb_t> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "DTB Trouwen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/em_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/em_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/em_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/em_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/em_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/em_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/em_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/em_a> <http://www.w3.org/2000/01/rdf-schema#label> "Emigranten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/em_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Emigranten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/em_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Emigranten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/mvs_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/mvs_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/mvs_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/mvs_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/mvs_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/mvs_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/mvs_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/mvs_a> <http://www.w3.org/2000/01/rdf-schema#label> "Memorie van successie inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/mvs_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Memorie van successie inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/mvs_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Memorie van successie inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/na_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/na_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/na_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/na_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/na_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/na_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/na_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/na_a> <http://www.w3.org/2000/01/rdf-schema#label> "Notarieel archief akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/na_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Notarieel archief akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/na_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Notarieel archief akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/ra_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/ra_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/ra_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/ra_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/ra_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/ra_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/ra_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/ra_a> <http://www.w3.org/2000/01/rdf-schema#label> "Quaclappen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/ra_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Quaclappen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/ra_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Quaclappen inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t01_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t01_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t01_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t01_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t01_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t01_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t01_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t01_a> <http://www.w3.org/2000/01/rdf-schema#label> "Militairen 1795-1815 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t01_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Militairen 1795-1815 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t01_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Militairen 1795-1815 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t02_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t02_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t02_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t02_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t02_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t02_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t02_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t02_a> <http://www.w3.org/2000/01/rdf-schema#label> "Pottenbakkers 1752-1900 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t02_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Pottenbakkers 1752-1900 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t02_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Pottenbakkers 1752-1900 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t03_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t03_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t03_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t03_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t03_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t03_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t03_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t03_a> <http://www.w3.org/2000/01/rdf-schema#label> "Kamer van koophandel inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t03_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kamer van koophandel inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t03_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Kamer van koophandel inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t04_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t04_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t04_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t04_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t04_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t04_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t04_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t04_a> <http://www.w3.org/2000/01/rdf-schema#label> "Studenten Franeker inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t04_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Studenten Franeker inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t04_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Studenten Franeker inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t05_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t05_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t05_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t05_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t05_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t05_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t05_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t05_a> <http://www.w3.org/2000/01/rdf-schema#label> "Ontvanger Generaal inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t05_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Ontvanger Generaal inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t05_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Ontvanger Generaal inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t06_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t06_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t06_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t06_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t06_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t06_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t06_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t06_a> <http://www.w3.org/2000/01/rdf-schema#label> "Tietjerksteradeel e.o. inschrijvingen" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t06_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Tietjerksteradeel e.o. inschrijvingen" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t06_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Tietjerksteradeel e.o. inschrijvingen" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t07_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t07_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t07_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t07_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t07_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t07_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t07_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t07_a> <http://www.w3.org/2000/01/rdf-schema#label> "Kadaster 1832 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t07_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Kadaster 1832 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t07_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Kadaster 1832 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t08_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t08_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t08_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t08_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t08_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t08_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t08_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t08_a> <http://www.w3.org/2000/01/rdf-schema#label> "Stemkohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t08_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Stemkohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t08_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Stemkohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t09_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t09_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t09_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t09_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t09_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t09_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t09_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t09_a> <http://www.w3.org/2000/01/rdf-schema#label> "Tietjerksteradeel speciekohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t09_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Tietjerksteradeel speciekohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t09_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Tietjerksteradeel speciekohieren inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t10_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t10_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t10_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t10_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t10_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t10_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t10_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t10_a> <http://www.w3.org/2000/01/rdf-schema#label> "Volkstelling 1744 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t10_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Volkstelling 1744 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t10_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Volkstelling 1744 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t11_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t11_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t11_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t11_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t11_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t11_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t11_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t11_a> <http://www.w3.org/2000/01/rdf-schema#label> "Tietjerksteradeel informatieboeken inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t11_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Tietjerksteradeel informatieboeken inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t11_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Tietjerksteradeel informatieboeken inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t12_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t12_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t12_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t12_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t12_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t12_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t12_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t12_a> <http://www.w3.org/2000/01/rdf-schema#label> "Tietjerksteradeel hypotheekboeken akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t12_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Tietjerksteradeel hypotheekboeken akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t12_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Tietjerksteradeel hypotheekboeken akte" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t15_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t15_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t15_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t15_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t15_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t15_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t15_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t15_a> <http://www.w3.org/2000/01/rdf-schema#label> "Naamsaanneming 1811 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t15_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Naamsaanneming 1811 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t15_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Naamsaanneming 1811 inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t16_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t16_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t16_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t16_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t16_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t16_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t16_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t16_a> <http://www.w3.org/2000/01/rdf-schema#label> "Nedergerechten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t16_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Nedergerechten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t16_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Nedergerechten inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t17_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t17_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t17_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t17_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t17_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t17_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t17_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t17_a> <http://www.w3.org/2000/01/rdf-schema#label> "Onderduikers inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t17_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Onderduikers inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t17_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Onderduikers inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t18_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t18_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t18_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t18_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t18_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t18_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t18_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t18_a> <http://www.w3.org/2000/01/rdf-schema#label> "Inscripties en grafschriften inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t18_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inscripties en grafschriften inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t18_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Inscripties en grafschriften inschrijving" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t19_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t19_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t19_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t19_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t19_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t19_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t19_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t19_a> <http://www.w3.org/2000/01/rdf-schema#label> "Inschrijving Leeuwarden Koopakten" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t19_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inschrijving Leeuwarden Koopakten" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t19_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Inschrijving Leeuwarden Koopakten" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t21_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t21_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t21_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t21_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t21_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t21_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t21_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t21_a> <http://www.w3.org/2000/01/rdf-schema#label> "Inschrijving Leeuwarden Registres Civiques" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t21_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inschrijving Leeuwarden Registres Civiques" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t21_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Inschrijving Leeuwarden Registres Civiques" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t22_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t22_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t22_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t22_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t22_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t22_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t22_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t22_a> <http://www.w3.org/2000/01/rdf-schema#label> "Inschrijving Leeuwarden Adresboek 1872" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t22_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inschrijving Leeuwarden Adresboek 1872" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t22_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Inschrijving Leeuwarden Adresboek 1872" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t23_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t23_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t23_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t23_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t23_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t23_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t23_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t23_a> <http://www.w3.org/2000/01/rdf-schema#label> "Inschrijving Leeuwarden OBW Wezen" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t23_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inschrijving Leeuwarden OBW Wezen" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t23_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Inschrijving Leeuwarden OBW Wezen" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t24_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t24_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t24_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t24_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t24_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t24_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t24_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t24_a> <http://www.w3.org/2000/01/rdf-schema#label> "Inschrijving Leeuwarden Schoorsteengeld" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t24_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inschrijving Leeuwarden Schoorsteengeld" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t24_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Inschrijving Leeuwarden Schoorsteengeld" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t25_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t25_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t25_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t25_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t25_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t25_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t25_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t25_a> <http://www.w3.org/2000/01/rdf-schema#label> "Inschrijving Leeuwarden Grootschippersgilde" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t25_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inschrijving Leeuwarden Grootschippersgilde" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t25_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Inschrijving Leeuwarden Grootschippersgilde" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t26_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t26_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t26_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t26_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t26_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t26_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t26_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t26_a> <http://www.w3.org/2000/01/rdf-schema#label> "Inschrijving Leeuwarderadeel Manspersonen 1812" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t26_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inschrijving Leeuwarderadeel Manspersonen 1812" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t26_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Inschrijving Leeuwarderadeel Manspersonen 1812" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t27_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t27_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t27_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t27_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t27_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t27_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t27_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t27_a> <http://www.w3.org/2000/01/rdf-schema#label> "Inschrijving Leeuwarden Huisfloreen 1808" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t27_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inschrijving Leeuwarden Huisfloreen 1808" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t27_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Inschrijving Leeuwarden Huisfloreen 1808" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t28_a> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Dataset> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t28_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#datasetOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t28_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#mediaType> <http://lod.kb.nl/registry/xml> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t28_a_distribution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#Distributie> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t28_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#distributionOf> <http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t28_a> . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t28_a_distribution> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#accessURL> "https://webservices.picturae.com/a2a/b3d793d4-f737-11e5-903e-60f81db16928?verb=ListSets"^^<http://www.w3.org/2001/XMLSchema#anyUri>. 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t28_a> <http://www.w3.org/2000/01/rdf-schema#label> "Inschrijving Leeuwarden Stemgerechtigden 1824" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t28_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#title> "Inschrijving Leeuwarden Stemgerechtigden 1824" . 
+<http://lod.kb.nl/registry/Tresoar__Alle_Friezen/t28_a> <https://ontologies.netwerkdigitaalerfgoed.nl/registry#identifier> "Inschrijving Leeuwarden Stemgerechtigden 1824" . 

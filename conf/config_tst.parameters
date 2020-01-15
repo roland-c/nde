@@ -1,8 +1,16 @@
 registry.count = 1
 
-ckan1.registry = https://opendata.oorlogsbronnen.nl/api/action/package_list
-ckan1.nameRegistry = Oorlogsbronnen Collectieportal
-ckan1.prefixURL = https://opendata.oorlogsbronnen.nl/api/action/package_show?id=
-ckan1.prefixURI = http://lod.kb.nl/datasets/
-ckan1.fileOut = /opt/data/nde/bronnen/datasets_oorlogsbronnen.nt
-
+1.encoding = UTF-8
+1.registry = https://data.brabantcloud.nl/sparql
+1.nameRegistry = Brabant Cloud
+1.prefixURI = https://data.netwerkdigitaalerfgoed.nl/registry/
+1.fileOut = data/datasets_brabant.nt
+1.sparql = 	prefix dlv: <http://schemas.delving.eu/narthex/terms/> \
+						SELECT * WHERE { \
+						  ?s dlv:datasetName ?n . \
+						  ?s dlv:datasetOwner ?o . \
+						  OPTIONAL { ?s dlv:datasetAggregator ?a .} \
+						  OPTIONAL { ?s dlv:datasetRights ?r .} \
+						  OPTIONAL { ?s dlv:datasetDescription ?d .} \
+						  OPTIONAL { ?s dlv:harvestType ?t .} \
+						} 
